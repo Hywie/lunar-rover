@@ -49,9 +49,9 @@ Your task is to implement the logic to control the rover.
 
 <br>
 
-The application has a [vehicle invoker](https://github.com/Hywie/lunar-rover/blob/bece3cee01b371ee82f844259e369dd8981d7e99/LunarRover/LunarRover/Invokers/VehicleInvoker.cs) that has the ability to store and execute instructions which action on any vehicle. This invoker has the ability to run any [command](https://github.com/Hywie/lunar-rover/blob/bece3cee01b371ee82f844259e369dd8981d7e99/LunarRover/LunarRover/Commands/ICommand.cs), in any order, on any type of [vehicle](https://github.com/Hywie/lunar-rover/blob/bece3cee01b371ee82f844259e369dd8981d7e99/LunarRover/LunarRover/Vehicles/IVehicle.cs) which can be on any kind of [terrain](https://github.com/Hywie/lunar-rover/blob/bece3cee01b371ee82f844259e369dd8981d7e99/LunarRover/LunarRover/Terrain/ITerrain.cs).
+The application has a [vehicle invoker](LunarRover/LunarRover/Invokers/VehicleInvoker.cs) that has the ability to store and execute instructions which action on any vehicle. This invoker has the ability to run any [command](LunarRover/LunarRover/Commands/ICommand.cs), in any order, on any type of [vehicle](LunarRover/LunarRover/Vehicles/IVehicle.cs) which can be on any kind of [terrain](LunarRover/LunarRover/Terrain/ITerrain.cs).
 
-As this challenge has a time limit, only a [rover vehicle](https://github.com/Hywie/lunar-rover/blob/bece3cee01b371ee82f844259e369dd8981d7e99/LunarRover/LunarRover/Vehicles/RoverVehicle.cs), [crater terrain](https://github.com/Hywie/lunar-rover/blob/bece3cee01b371ee82f844259e369dd8981d7e99/LunarRover/LunarRover/Terrain/Crater.cs) and [commands for the rover](https://github.com/Hywie/lunar-rover/tree/main/LunarRover/LunarRover/Commands) have been implemented. This could be expanded so we can also have a different terrain that behaves differently or a different vehicle. For example, we could create a UFO that has move commands that behave differently on different terrains.
+As this challenge has a time limit, only a [rover vehicle](LunarRover/LunarRover/Vehicles/RoverVehicle.cs), [crater terrain](LunarRover/LunarRover/Terrain/Crater.cs) and [commands for the rover](https://github.com/Hywie/lunar-rover/tree/main/LunarRover/LunarRover/Commands) have been implemented. This could be expanded so we can also have a different terrain that behaves differently or a different vehicle. For example, we could create a UFO that has move commands that behave differently on different terrains.
 
 ---
 
@@ -59,7 +59,7 @@ As this challenge has a time limit, only a [rover vehicle](https://github.com/Hy
 
 ## Usage
 
-> Check out the [integration test](https://github.com/Hywie/lunar-rover/blob/bece3cee01b371ee82f844259e369dd8981d7e99/LunarRover/LunarRoverTests/IntegrationTests/LunarRoverScenario.cs) to see how to use the invoker in the code.
+> Check out the [integration test](LunarRover/LunarRoverTests/IntegrationTests/LunarRoverScenario.cs) to see how to use the invoker in the code.
 
 1. Enter the start position and compass direction of the rover when asked. E.G. `1,2,N`.
 2. Enter a line of commands. `F` to move forward, `L` to rotate left, `R` to rotate right. E.G. `FFLRFF`.
