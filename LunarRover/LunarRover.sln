@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31717.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LunarRover", "LunarRover\LunarRover.csproj", "{2FFB6B10-1451-40C3-95CC-F205F147D1C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LunarRoverTests", "LunarRoverTests\LunarRoverTests.csproj", "{304A8707-5642-4CA5-AFDD-F6C28993DFB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FFB6B10-1451-40C3-95CC-F205F147D1C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FFB6B10-1451-40C3-95CC-F205F147D1C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FFB6B10-1451-40C3-95CC-F205F147D1C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FFB6B10-1451-40C3-95CC-F205F147D1C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{304A8707-5642-4CA5-AFDD-F6C28993DFB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{304A8707-5642-4CA5-AFDD-F6C28993DFB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{304A8707-5642-4CA5-AFDD-F6C28993DFB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{304A8707-5642-4CA5-AFDD-F6C28993DFB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7DDCDDD2-D592-40DF-8635-9260E216FBF2}
+	EndGlobalSection
+EndGlobal
