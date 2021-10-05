@@ -19,7 +19,7 @@
 ## About The Challenge
 
 <p align="center">
-    <img src="images/demo.gif" alt="Lunar gif" width="500">
+    <img src="images/demo.gif" alt="Lunar gif">
 </p>
 
 You have been assigned to the prestigious Mars Rover Prototype project and have been tasked with creating a basic control system for the rover.
