@@ -40,7 +40,5 @@ namespace LunarRover.Invokers
             foreach(var command in listOfCommands)
                 RunCommand(command);
         }
-
-        public Dictionary<string, ICommand> GetCommands() => _commands;
     }
 }
